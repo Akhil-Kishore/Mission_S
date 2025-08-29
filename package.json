@@ -1,0 +1,9 @@
+{
+  "name": "mission-s",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "lint": "npm run lint -w client && npm run lint -w server"
+  }
+}
